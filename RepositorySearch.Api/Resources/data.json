@@ -1,0 +1,95 @@
+[
+    {
+        "id": "a213235b-e4d1-45ff-bc7f-e0980f688c88",
+        "created": "2013-07-13T13:14:06Z",
+        "updated": "2019-03-14T08:11:15Z",
+        "content": "You can use `git config --global --list` to show the global configuration of git in your current environment. Git stores repository settings in the .git/config folder inside your repository.",
+        "groups": [
+            "developers"
+        ]
+    },
+    {
+        "id": "f35e8462-c31a-46d5-9c9d-29e717bc892c",
+        "created": "2018-05-27T11:05:09Z",
+        "updated": "2018-05-27T11:05:09Z",
+        "content": "It is strongly recommended to keep the configuration of your system inside git. It can be somewhat challenging for system configuration files, but very much worth it. For your personal configuration files, you can find various examples of synchronization scripts when googling for 'dotfiles'.",
+        "groups": [
+            "admin",
+            "developers"
+        ]
+    },
+    {
+        "id": "c363d6d9-8928-4185-a0b1-112ee3983d13",
+        "created": "2016-07-06T21:25:33Z",
+        "updated": "2019-07-01T07:00:18Z",
+        "content": "This page has been deleted. Please contact system administrators.",
+        "groups": []
+    },
+    {
+        "id": "4bba803a-9386-40f6-b5a6-2cd437e922cb",
+        "created": "2019-05-31T13:34:53Z",
+        "updated": "2019-05-31T13:34:53Z",
+        "content": "There do exist various open source search engines, such as Solr, Elasticsearch, Vespa.ai and many others. These existing products will make it much easier to index your content without having to develop the text processing pipeline yourself.",
+        "groups": [
+            "developers"
+        ]
+    },
+    {
+        "id": "47226c51-0186-4aef-8830-26ce6ad99ea2",
+        "created": "2018-06-18T23:10:36Z",
+        "updated": "2018-10-19T07:05:57Z",
+        "content": "As Linux systems use the GNU toolchain and Mac systems the BSD toolchain, the options for command line tools can be different and entered in a different way. Be careful!",
+        "groups": [
+            "helpdesk"
+        ]
+    },
+    {
+        "id": "54c3c919-dfeb-48ed-9ff8-a93a6284ff6e",
+        "created": "2020-01-18T10:33:47Z",
+        "updated": "2020-01-18T10:33:47Z",
+        "content": "Newer Macbooks only have an USB-C port available. You will need to check the connectivity options for monitors.",
+        "groups": [
+            "helpdesk"
+        ]
+    },
+    {
+        "id": "c628dfd3-f160-44da-bff7-6ea04bf22cd4",
+        "created": "2020-02-14T07:18:38Z",
+        "updated": "2020-02-14T07:18:38Z",
+        "content": "When you are using zsh, `!1` will execute the first command in history and `!!` the latest command. If you want to examine the command that would be executed, you can use tab-completion beforehand. Git tab-completions are shipped in the `contrib/completion` folder of the installer.",
+        "groups": [
+            "helpdesk",
+            "admin",
+            "developers"
+        ]
+    },
+    {
+        "id": "ca828634-4c6e-40de-ada9-d97598c09522",
+        "created": "2019-10-16T15:25:47Z",
+        "updated": "2019-10-16T15:37:03Z",
+        "content": "This page has been deleted. Please contact system administrators.",
+        "groups": [
+            "admin"
+        ]
+    },
+    {
+        "id": "a059a7c1-8076-448f-ae5a-aedecba0f698",
+        "created": "2018-05-02T09:57:25Z",
+        "updated": "2019-10-02T17:53:38Z",
+        "content": "If you need to generate a GUID, it is very easy to do in PowerShell. Just use `[guid]::NewGuid()` for this.",
+        "groups": [
+            "developers",
+            "helpdesk",
+            "admin"
+        ]
+    },
+    {
+        "id": "39124a4d-b843-4363-9d6d-0704a21b23ca",
+        "created": "2020-03-06T16:25:24Z",
+        "updated": "2020-03-06T16:28:09Z",
+        "content": "VS Code does have syntax highlighting for PowerShell and JSON, so this is one option to use for editing scripts.",
+        "groups": [
+            "admin"
+        ]
+    }
+]
